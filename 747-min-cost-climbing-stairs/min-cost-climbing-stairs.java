@@ -23,7 +23,7 @@ class Solution {
     // }
     // }
 
-    // this is taqbulation ->
+    // this is taqbulation ->o(n)
 
     // public int minCostClimbingStairs(int[] cost) {
     //     int n = cost.length;
