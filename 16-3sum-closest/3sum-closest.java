@@ -2,7 +2,8 @@ class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int n = nums.length;
 
-        int closestSum = nums[0] + nums[1] + nums[2];
+        // int closestSum = nums[0] + nums[1] + nums[2];
+        int   closestSum= Integer.MAX_VALUE / 2;
         int sum = 0;
         for (int i = 0; i < n-2; i++) {
             for (int j = i + 1; j < n-1; j++) {
